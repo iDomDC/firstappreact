@@ -1,9 +1,8 @@
 function Chocolate (props) {
     return (
         <div>
-            <p>
                 {props.name} {props.type} {props.price}
-            </p>
+                <button onClick={  props.addPanier}>Ajouter au panier</button>
         </div>
     )
 }
