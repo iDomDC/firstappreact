@@ -1,8 +1,9 @@
 function Chat (props) {
-    return
+    return(
     <div>
-        
+
     </div>
+    )
 }
 
 export default Chat
